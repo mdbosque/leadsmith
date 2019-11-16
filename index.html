@@ -2,18 +2,16 @@
 layout: default
 slides:
   - bg: http://themes.blahlab.com/squarebox/wp-content/uploads/2014/12/out-short.jpg
-    title: Digital Marketing
-    tagline: Forging New business
+    title: Expand your business
+    tagline: Digital Marketing helps you reach new clients
     buttons:
-      - text: services
+      - text: Services
         class: small
         url: "#services"
-      - text: About Us
+      - text: Learn More
         class: small boxed
         url: "#about"
     videos:
-      - type: webm
-        url: images/@stock/Pexels Videos 2818547.mp4
       - type: mp4
         url: images/@stock/Pexels Videos 2818547.mp4
 
@@ -183,22 +181,7 @@ socials:
 ---
 <div class='mod modFullscreenSlider'>
   <div class='fullscreen_slideshow' data-autostop='off'>
-    <a class='sequence-prev' href='javascript:void(0);'>
-      <span></span>
-    </a>
-    <a class='sequence-next' href='javascript:void(0);'>
-      <span></span>
-    </a>
-    <ul class='sequence-pagination'>
-      {% for slide in page.slides %}
-        {% if forloop.first %}
-          {% assign class = 'current' %}
-        {% else %}
-          {% assign class = '' %}
-        {% endif %}
-        <li class="{{class}}"></li>
-      {% endfor %}
-    </ul>
+
     <ul class="sequence-canvas">
       {% for slide in page.slides %}
         {% if forloop.first %}
@@ -402,7 +385,7 @@ socials:
   <div class='row'>
     <div class='large-12 columns'>
       <p class='centered-text'>
-        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
+        <i class='fa fa-quote-left' style='color: #2b2d2f; font-size: 36px;'></i>
       </p>
       <div class='spacing'></div>
     </div>
@@ -434,7 +417,7 @@ socials:
     </div>
   </div>
 </div>
-<div class='full no-padding' style='background: #F9CE06; color: #fff'>
+<div class='full no-padding' style='background: #2b2d2f; color: #fff'>
   <div class='two spacing'></div>
   <div class='mod modCallToAction'>
     <div class='row'>
